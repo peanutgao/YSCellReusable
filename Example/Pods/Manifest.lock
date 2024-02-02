@@ -1,0 +1,16 @@
+PODS:
+  - YSCellReusable (0.1.0)
+
+DEPENDENCIES:
+  - YSCellReusable (from `../`)
+
+EXTERNAL SOURCES:
+  YSCellReusable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YSCellReusable: e70b1f3482fc27f2c1b77e1e20b79de136aa5933
+
+PODFILE CHECKSUM: 833be8c9a6ac0193235be5d599f31e359ed6ef77
+
+COCOAPODS: 1.14.3

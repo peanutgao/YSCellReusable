@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5B21B82531B495DF5C237497324B5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3009FBB73C80D11C1F2FCC99AFD0667D /* YSCellReusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F9EEAE0D620AD5EA99118BC1052 /* YSCellReusable-dummy.m */; };
+		321EEF179DA56BBDFDC15041C2824050 /* Pods-YSCellReusable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CC25C5294C06921BCF09FFE91175D /* Pods-YSCellReusable_Tests-dummy.m */; };
+		3CF288D37442A55F889D0DA7ECCF4D6C /* YSCellReusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2BCD6A6DFF173DA2599AF5E49A22B4 /* YSCellReusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4810E5967C3BB89B899D8496A3CCEFC5 /* Pods-YSCellReusable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EF06A735799E5FBF361C257DBDD90B /* Pods-YSCellReusable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA18C8065D75B26F3AED7D81B18BE90 /* Pods-YSCellReusable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F238B75E97BE6F1E2FBDEB927D5B94 /* Pods-YSCellReusable_Example-dummy.m */; };
+		4EF333D61B470B503AF3B031B42155E1 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2ABD041208FC5FD79D1BD5E83EB3 /* Reusable.swift */; };
+		907302A0614C075FFBA1A9E76AB6C514 /* UICollection+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBF82EB69D8BC3C8A5BEE4A0E2892BB /* UICollection+Reusable.swift */; };
+		997BA19D1DDD0A80E912E8688B294C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D6C75AEDF9D251B89A0FF762E66C1C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA147B84B44F0663102AF138206F0093 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70216150F258A73201D176CA46F4CF7 /* UITableView+Reusable.swift */; };
+		E1E9275B251939C518D9710207C44667 /* Pods-YSCellReusable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F20C8AC18D0C52CD014B367D475438 /* Pods-YSCellReusable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F52685B487B650653B0A6D7A4C96F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A5F48C57A01CA9ADB727A93BE45B54;
+			remoteInfo = "Pods-YSCellReusable_Example";
+		};
+		E83AF4C52979AA11396499D579B3A874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B649D19F2D1234B736DEDCAA99099B00;
+			remoteInfo = YSCellReusable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F550CEF16D5157AE04A9EB11D49A00E /* Pods-YSCellReusable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSCellReusable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17C5394CCA6D615DD3FD541EB5F9921B /* YSCellReusable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSCellReusable.release.xcconfig; sourceTree = "<group>"; };
+		21F20C8AC18D0C52CD014B367D475438 /* Pods-YSCellReusable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSCellReusable_Example-umbrella.h"; sourceTree = "<group>"; };
+		234EEA488742CA5D3DBADA240D5F9C04 /* YSCellReusable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YSCellReusable.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		260264E13C8814C226BD905EF78D86D8 /* Pods-YSCellReusable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSCellReusable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D547F7B4232AB665BD8C38FD6BD713D /* Pods-YSCellReusable_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YSCellReusable_Tests"; path = Pods_YSCellReusable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADD094CD4A97B69F718C8E3D9B5D113 /* Pods-YSCellReusable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSCellReusable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F7CC25C5294C06921BCF09FFE91175D /* Pods-YSCellReusable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSCellReusable_Tests-dummy.m"; sourceTree = "<group>"; };
+		4FBF82EB69D8BC3C8A5BEE4A0E2892BB /* UICollection+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollection+Reusable.swift"; path = "YSCellReusable/Classes/UICollection+Reusable.swift"; sourceTree = "<group>"; };
+		54DD2ABD041208FC5FD79D1BD5E83EB3 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = YSCellReusable/Classes/Reusable.swift; sourceTree = "<group>"; };
+		64AAC8D1814ACC14B5B5FE7C56588F47 /* Pods-YSCellReusable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSCellReusable_Example.modulemap"; sourceTree = "<group>"; };
+		685407AED58D5C2A6A8CEFFA2CFB2D7F /* Pods-YSCellReusable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSCellReusable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73572CE46AB113989ED2079F5C11EE5C /* Pods-YSCellReusable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSCellReusable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74A8CFF45D7E4F2EDA1B34C06134965B /* YSCellReusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YSCellReusable.modulemap; sourceTree = "<group>"; };
+		7765DFF2B0C81AC4D2D40ABF087C627E /* YSCellReusable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSCellReusable.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4A0F9EEAE0D620AD5EA99118BC1052 /* YSCellReusable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSCellReusable-dummy.m"; sourceTree = "<group>"; };
+		AA0E1BBBB294C1FD97CEB1DBBB53D173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AEB03CAF825876736993F8E2B046ADFE /* YSCellReusable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YSCellReusable-Info.plist"; sourceTree = "<group>"; };
+		B8D31E008B146F96452B229BCF5DE312 /* Pods-YSCellReusable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSCellReusable_Example-Info.plist"; sourceTree = "<group>"; };
+		C2F238B75E97BE6F1E2FBDEB927D5B94 /* Pods-YSCellReusable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSCellReusable_Example-dummy.m"; sourceTree = "<group>"; };
+		CA4CD885BE91043206F1CC2FAD913D54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CC2BCD6A6DFF173DA2599AF5E49A22B4 /* YSCellReusable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSCellReusable-umbrella.h"; sourceTree = "<group>"; };
+		CD4A08574AB8EBAFD6086503E45ACC7E /* Pods-YSCellReusable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSCellReusable_Tests.modulemap"; sourceTree = "<group>"; };
+		D090FC7518FA22B2035C9F5DDDE6620E /* Pods-YSCellReusable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSCellReusable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D3236BABABC80B265693E83CF3F34C4B /* YSCellReusable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSCellReusable-prefix.pch"; sourceTree = "<group>"; };
+		D53C2836241F8179D9EF8DD4A940D941 /* Pods-YSCellReusable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSCellReusable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E615F9B3454013E982DFEDAEA0990F32 /* YSCellReusable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSCellReusable; path = YSCellReusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70216150F258A73201D176CA46F4CF7 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "YSCellReusable/Classes/UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		E77F23623C210A75605D38CE011D2B1F /* Pods-YSCellReusable_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YSCellReusable_Example"; path = Pods_YSCellReusable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D1D1F4BB6D1D32B508606D3240C2D7 /* Pods-YSCellReusable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSCellReusable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB4A10ED9B09FBB2FE5A42C9D5FE7EE7 /* Pods-YSCellReusable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSCellReusable_Tests-Info.plist"; sourceTree = "<group>"; };
+		F6EF06A735799E5FBF361C257DBDD90B /* Pods-YSCellReusable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSCellReusable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FDEDBDA04D3125DEB9E16B451322B20D /* Pods-YSCellReusable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSCellReusable_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51293E13F8024C58E5BA95984DA9EE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997BA19D1DDD0A80E912E8688B294C88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E612D18C5442295BE31D96ED325737EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5B21B82531B495DF5C237497324B5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21EB6F52E5A06246233A9CA78EE1968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C75AEDF9D251B89A0FF762E66C1C74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E80E48D8EBC3E65CF8D8953CDC074A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74A8CFF45D7E4F2EDA1B34C06134965B /* YSCellReusable.modulemap */,
+				9F4A0F9EEAE0D620AD5EA99118BC1052 /* YSCellReusable-dummy.m */,
+				AEB03CAF825876736993F8E2B046ADFE /* YSCellReusable-Info.plist */,
+				D3236BABABC80B265693E83CF3F34C4B /* YSCellReusable-prefix.pch */,
+				CC2BCD6A6DFF173DA2599AF5E49A22B4 /* YSCellReusable-umbrella.h */,
+				7765DFF2B0C81AC4D2D40ABF087C627E /* YSCellReusable.debug.xcconfig */,
+				17C5394CCA6D615DD3FD541EB5F9921B /* YSCellReusable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YSCellReusable";
+			sourceTree = "<group>";
+		};
+		0EDE3CBEC69835FD341D4AB5490243C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD215E88F2B51D8055FAD06319DB6DF /* Pods-YSCellReusable_Example */,
+				D5A5CB4F1A21B0650EC2469067AF321E /* Pods-YSCellReusable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		21AFBB44E1FBB7463CB79567C3214A90 /* YSCellReusable */ = {
+			isa = PBXGroup;
+			children = (
+				54DD2ABD041208FC5FD79D1BD5E83EB3 /* Reusable.swift */,
+				4FBF82EB69D8BC3C8A5BEE4A0E2892BB /* UICollection+Reusable.swift */,
+				E70216150F258A73201D176CA46F4CF7 /* UITableView+Reusable.swift */,
+				6AD4290A7AB9DA04C6F25AEA82F22B8D /* Pod */,
+				0E80E48D8EBC3E65CF8D8953CDC074A2 /* Support Files */,
+			);
+			name = YSCellReusable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3EBC085C043735F5E56BDB4D23F886AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21AFBB44E1FBB7463CB79567C3214A90 /* YSCellReusable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F9144917AE88A5C7F2E5DD82B5D9648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77F23623C210A75605D38CE011D2B1F /* Pods-YSCellReusable_Example */,
+				2D547F7B4232AB665BD8C38FD6BD713D /* Pods-YSCellReusable_Tests */,
+				E615F9B3454013E982DFEDAEA0990F32 /* YSCellReusable */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AD4290A7AB9DA04C6F25AEA82F22B8D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA4CD885BE91043206F1CC2FAD913D54 /* LICENSE */,
+				AA0E1BBBB294C1FD97CEB1DBBB53D173 /* README.md */,
+				234EEA488742CA5D3DBADA240D5F9C04 /* YSCellReusable.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3EBC085C043735F5E56BDB4D23F886AD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3F9144917AE88A5C7F2E5DD82B5D9648 /* Products */,
+				0EDE3CBEC69835FD341D4AB5490243C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A5CB4F1A21B0650EC2469067AF321E /* Pods-YSCellReusable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4A08574AB8EBAFD6086503E45ACC7E /* Pods-YSCellReusable_Tests.modulemap */,
+				0F550CEF16D5157AE04A9EB11D49A00E /* Pods-YSCellReusable_Tests-acknowledgements.markdown */,
+				E8D1D1F4BB6D1D32B508606D3240C2D7 /* Pods-YSCellReusable_Tests-acknowledgements.plist */,
+				4F7CC25C5294C06921BCF09FFE91175D /* Pods-YSCellReusable_Tests-dummy.m */,
+				EB4A10ED9B09FBB2FE5A42C9D5FE7EE7 /* Pods-YSCellReusable_Tests-Info.plist */,
+				F6EF06A735799E5FBF361C257DBDD90B /* Pods-YSCellReusable_Tests-umbrella.h */,
+				260264E13C8814C226BD905EF78D86D8 /* Pods-YSCellReusable_Tests.debug.xcconfig */,
+				D090FC7518FA22B2035C9F5DDDE6620E /* Pods-YSCellReusable_Tests.release.xcconfig */,
+			);
+			name = "Pods-YSCellReusable_Tests";
+			path = "Target Support Files/Pods-YSCellReusable_Tests";
+			sourceTree = "<group>";
+		};
+		EAD215E88F2B51D8055FAD06319DB6DF /* Pods-YSCellReusable_Example */ = {
+			isa = PBXGroup;
+			children = (
+				64AAC8D1814ACC14B5B5FE7C56588F47 /* Pods-YSCellReusable_Example.modulemap */,
+				3ADD094CD4A97B69F718C8E3D9B5D113 /* Pods-YSCellReusable_Example-acknowledgements.markdown */,
+				D53C2836241F8179D9EF8DD4A940D941 /* Pods-YSCellReusable_Example-acknowledgements.plist */,
+				C2F238B75E97BE6F1E2FBDEB927D5B94 /* Pods-YSCellReusable_Example-dummy.m */,
+				685407AED58D5C2A6A8CEFFA2CFB2D7F /* Pods-YSCellReusable_Example-frameworks.sh */,
+				B8D31E008B146F96452B229BCF5DE312 /* Pods-YSCellReusable_Example-Info.plist */,
+				21F20C8AC18D0C52CD014B367D475438 /* Pods-YSCellReusable_Example-umbrella.h */,
+				73572CE46AB113989ED2079F5C11EE5C /* Pods-YSCellReusable_Example.debug.xcconfig */,
+				FDEDBDA04D3125DEB9E16B451322B20D /* Pods-YSCellReusable_Example.release.xcconfig */,
+			);
+			name = "Pods-YSCellReusable_Example";
+			path = "Target Support Files/Pods-YSCellReusable_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29670D90D9DA49E075981674FD70830F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4810E5967C3BB89B899D8496A3CCEFC5 /* Pods-YSCellReusable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5291FC7FD67D6A095106204AB9A017F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF288D37442A55F889D0DA7ECCF4D6C /* YSCellReusable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3934B61A2A994AE015EAB0937879F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E9275B251939C518D9710207C44667 /* Pods-YSCellReusable_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17A5F48C57A01CA9ADB727A93BE45B54 /* Pods-YSCellReusable_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D2D2A2DD78DFE14BE948863E2F449A /* Build configuration list for PBXNativeTarget "Pods-YSCellReusable_Example" */;
+			buildPhases = (
+				FD3934B61A2A994AE015EAB0937879F7 /* Headers */,
+				F57DB71D888DF993121C9EB7CF59ADDE /* Sources */,
+				F21EB6F52E5A06246233A9CA78EE1968 /* Frameworks */,
+				19707BB16B6A5D8E8210E805187639BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645E0BF7F4AFB0A4C0BB75767726BB32 /* PBXTargetDependency */,
+			);
+			name = "Pods-YSCellReusable_Example";
+			productName = Pods_YSCellReusable_Example;
+			productReference = E77F23623C210A75605D38CE011D2B1F /* Pods-YSCellReusable_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB9BBAA8F03C01AC7756125B8068B64E /* Pods-YSCellReusable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF15DE62F8E6BBF5447ADA54B0B85F89 /* Build configuration list for PBXNativeTarget "Pods-YSCellReusable_Tests" */;
+			buildPhases = (
+				29670D90D9DA49E075981674FD70830F /* Headers */,
+				2B45284B8B2B7405779357DFB85BEF6C /* Sources */,
+				51293E13F8024C58E5BA95984DA9EE96 /* Frameworks */,
+				CC1A7DECF5507E990960E3BB78094F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA2F6A2502059D38C1E67E9DF168B4B /* PBXTargetDependency */,
+			);
+			name = "Pods-YSCellReusable_Tests";
+			productName = Pods_YSCellReusable_Tests;
+			productReference = 2D547F7B4232AB665BD8C38FD6BD713D /* Pods-YSCellReusable_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B649D19F2D1234B736DEDCAA99099B00 /* YSCellReusable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD582F69DAEA7A9E24C73FD9EF0F796E /* Build configuration list for PBXNativeTarget "YSCellReusable" */;
+			buildPhases = (
+				5291FC7FD67D6A095106204AB9A017F5 /* Headers */,
+				18845E42054FD312ECBADD10E45B883E /* Sources */,
+				E612D18C5442295BE31D96ED325737EC /* Frameworks */,
+				D14BDD8D01A9BA3D4251244BAB47CB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSCellReusable;
+			productName = YSCellReusable;
+			productReference = E615F9B3454013E982DFEDAEA0990F32 /* YSCellReusable */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3F9144917AE88A5C7F2E5DD82B5D9648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A5F48C57A01CA9ADB727A93BE45B54 /* Pods-YSCellReusable_Example */,
+				AB9BBAA8F03C01AC7756125B8068B64E /* Pods-YSCellReusable_Tests */,
+				B649D19F2D1234B736DEDCAA99099B00 /* YSCellReusable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19707BB16B6A5D8E8210E805187639BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1A7DECF5507E990960E3BB78094F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14BDD8D01A9BA3D4251244BAB47CB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18845E42054FD312ECBADD10E45B883E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF333D61B470B503AF3B031B42155E1 /* Reusable.swift in Sources */,
+				907302A0614C075FFBA1A9E76AB6C514 /* UICollection+Reusable.swift in Sources */,
+				DA147B84B44F0663102AF138206F0093 /* UITableView+Reusable.swift in Sources */,
+				3009FBB73C80D11C1F2FCC99AFD0667D /* YSCellReusable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B45284B8B2B7405779357DFB85BEF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321EEF179DA56BBDFDC15041C2824050 /* Pods-YSCellReusable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57DB71D888DF993121C9EB7CF59ADDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA18C8065D75B26F3AED7D81B18BE90 /* Pods-YSCellReusable_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA2F6A2502059D38C1E67E9DF168B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YSCellReusable_Example";
+			target = 17A5F48C57A01CA9ADB727A93BE45B54 /* Pods-YSCellReusable_Example */;
+			targetProxy = 7F52685B487B650653B0A6D7A4C96F7C /* PBXContainerItemProxy */;
+		};
+		645E0BF7F4AFB0A4C0BB75767726BB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YSCellReusable;
+			target = B649D19F2D1234B736DEDCAA99099B00 /* YSCellReusable */;
+			targetProxy = E83AF4C52979AA11396499D579B3A874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		024E60C0368D5515B3C69F5107BC264B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C5394CCA6D615DD3FD541EB5F9921B /* YSCellReusable.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSCellReusable/YSCellReusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSCellReusable/YSCellReusable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSCellReusable/YSCellReusable.modulemap";
+				PRODUCT_MODULE_NAME = YSCellReusable;
+				PRODUCT_NAME = YSCellReusable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CDA722B9D5DD249C969B63D887FC434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEDBDA04D3125DEB9E16B451322B20D /* Pods-YSCellReusable_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSCellReusable_Example/Pods-YSCellReusable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSCellReusable_Example/Pods-YSCellReusable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43317CC1A0427C755E74A3D4E73BBF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260264E13C8814C226BD905EF78D86D8 /* Pods-YSCellReusable_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSCellReusable_Tests/Pods-YSCellReusable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSCellReusable_Tests/Pods-YSCellReusable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C0B2A8BB54530288DB626F863DA65DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D090FC7518FA22B2035C9F5DDDE6620E /* Pods-YSCellReusable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSCellReusable_Tests/Pods-YSCellReusable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSCellReusable_Tests/Pods-YSCellReusable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0E6CDBF94610E033E8C2D2AF3017FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7765DFF2B0C81AC4D2D40ABF087C627E /* YSCellReusable.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSCellReusable/YSCellReusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSCellReusable/YSCellReusable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSCellReusable/YSCellReusable.modulemap";
+				PRODUCT_MODULE_NAME = YSCellReusable;
+				PRODUCT_NAME = YSCellReusable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA8920F6FAEF051C0B03C3837F43785A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73572CE46AB113989ED2079F5C11EE5C /* Pods-YSCellReusable_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSCellReusable_Example/Pods-YSCellReusable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSCellReusable_Example/Pods-YSCellReusable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D2D2A2DD78DFE14BE948863E2F449A /* Build configuration list for PBXNativeTarget "Pods-YSCellReusable_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8920F6FAEF051C0B03C3837F43785A /* Debug */,
+				0CDA722B9D5DD249C969B63D887FC434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD582F69DAEA7A9E24C73FD9EF0F796E /* Build configuration list for PBXNativeTarget "YSCellReusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E6CDBF94610E033E8C2D2AF3017FEA /* Debug */,
+				024E60C0368D5515B3C69F5107BC264B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF15DE62F8E6BBF5447ADA54B0B85F89 /* Build configuration list for PBXNativeTarget "Pods-YSCellReusable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43317CC1A0427C755E74A3D4E73BBF7C /* Debug */,
+				C0B2A8BB54530288DB626F863DA65DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

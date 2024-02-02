@@ -1,0 +1,6 @@
+framework module YSCellReusable {
+  umbrella header "YSCellReusable-umbrella.h"
+
+  export *
+  module * { export * }
+}

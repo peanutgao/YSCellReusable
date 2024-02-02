@@ -1,0 +1,6 @@
+framework module Pods_YSCellReusable_Example {
+  umbrella header "Pods-YSCellReusable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

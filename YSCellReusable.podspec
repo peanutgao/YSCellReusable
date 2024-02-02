@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/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/YSCellReusable'
+  s.homepage         = 'https://github.com/peanutgao/YSCellReusable'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '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' => 'joseph0750@gmail.com' }
-  s.source           = { :git => 'https://github.com/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/YSCellReusable.git', :tag => s.version.to_s }
+  s.author           = { 'peanutgao' => 'joseph0750@gmail.com' }
+  s.source           = { :git => 'https://github.com/peanutgao/YSCellReusable.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'YSCellReusable/Classes/**/*'
   
