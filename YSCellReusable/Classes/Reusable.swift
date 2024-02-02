@@ -7,6 +7,8 @@
 
 import UIKit
 
+// MARK: - Reusable
+
 /// Make your `UlTableViewCell` and `UICollectionViewcell` subclasses
 /// conform to this protocol when they are *not* NIB-based but only code-based
 /// to be able to dequeue them in a type-safe manner
