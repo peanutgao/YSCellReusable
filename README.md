@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'YSCellReusable'
 ```
 
-## Author
-
-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, joseph0750@gmail.com
-
 ## License
 
 YSCellReusable is available under the MIT license. See the LICENSE file for more info.
